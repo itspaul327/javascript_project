@@ -1,11 +1,15 @@
 /*Javascript Practice*/
-$(document).ready(function(){
- var x = (".unit");
- var y = (".unit");
- for (var x=0; y<16;y++) {
-    for (var y=0; x<16; x++){
-     $("<div>").addClass("unit").appendTo("container");
+var rows = 8;
+var columns = 8;
+var $row = $("<div>", {class: 'row'});
+var $unit = $("<div>", {class: 'unit'});
 
+$(document).ready(function(){
+    for(var i = 0; i < rows; i++){      
+            $("#container").append($row);
     }
- }
+
+    for(var i = 0; i < columns; i++){
+            $(".row").append($unit);
+    }
 });

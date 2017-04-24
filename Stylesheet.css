@@ -1,7 +1,20 @@
 #container {
-    height:16px;
-    width:16px;
-    background-color:black;
+    height:192px;
+    width:192px;
+    background-color:blue;
+    margin:100px auto;
 }
-.p {color:red;
+
+.row{
+    height:15px;
+    width: auto;
+    background-color:red;
 }
+
+
+.unit {
+    background-color:yellow;
+    Height: 10px;
+    width: 10px;
+}
+
