@@ -1,13 +1,13 @@
 #container {
-    height:192px;
-    width:192px;
+    height:300px;
+    width:300px;
     background-color:blue;
     margin:100px auto;
 }
 
 .row{
     height:15px;
-    width: auto;
+    width: 15px;
     background-color:red;
 }
 
@@ -16,5 +16,8 @@
     background-color:yellow;
     Height: 10px;
     width: 10px;
+    display:inline-block;
+    float:left;
+    margin:2px;
 }
 
